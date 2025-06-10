@@ -1,227 +1,304 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Portfolio</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-     <link rel="stylesheet" href="styles.css">
- </head>
- <body>
-     <!-- Nav menu -->
-      <div class="container">
- 
-         <nav id="header">
-             <div class="nav-logo">
-                 <p class="nav-name">Logo</p>
-             </div>
-             <div class="nav-menu" id="myNavMenu">
-                 <ul class="nav_menu_list">
-                     <li class="nav_list">
-                         <a href="#home" class="nav-link active-link">Home</a>
-                         <div class="circle"></div>
-                     </li>
-                     <li class="nav_list">
-                         <a href="#about" class="nav-link">About</a>
-                         <div class="circle"></div>
-                     </li>
-                     <li class="nav_list">
-                         <a href="#projects" class="nav-link">Projects</a>
-                         <div class="circle"></div>
-                     </li>
-                     <li class="nav_list">
-                         <a href="#contact" class="nav-link">Contacts</a>
-                         <div class="circle"></div>
-                     </li>
- 
-                 </ul>
-             </div>
-             <!-- Dark mode -->
-              <div class="mode">
-                 <div class="moon-sun" id="toggle-switch">
-                     <i class="fa fa-moon" id="moon"></i>
-                     <i class="fa fa-sun" id="sun"></i>
-                 </div>
-              </div>
-              <div class="nav-menu-btn">
-                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
-              </div>
-         </nav>
-         <!-- main -->
-          <main class="wrapper">
-             <section class="featured-box" id="home">
-                 <div class="featured-text">
-                     <div class="hello">
-                         <p>Hello I'm</p>
-                     </div>
-                     <div class="featured-name">
-                         <span class="typedText"></span>
-                     </div>
-                     <div class="text-info">
-                         <p>My name is Michael I'm a web developer with 1 years of Experience</p>
-                     </div>
-                     <div class="text-btn">
-                         <button class="btn hire-btn">Hire Me</button>
-                         <button class="btn">
-                             Download CV <i class="uil uil-file"></i>
-                         </button>
-                     </div>
-                     <div class="social-icons">
-                         <div class="icon_circle"></div>
-                         <div class="icon"><i class="uil uil-instagram"></i></div>
-                         <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                         <div class="icon"><i class="uil uil-behance-alt"></i></div>
-                         <div class="icon uil uil-github-alt"></div>
-                     </div>
-                 </div>
-                 <div class="featured-image">
-                     <div class="image">
-                         <img src="images/1730315487986-removebg-preview.png" alt="">
-                     </div>
-                 </div>
-             </section>
-             <!-- about box -->
-              <section class="section" id="about">
-                 <div class="top-header">
-                     <h1>About me</h1>
-                 </div>
-                 <div class="row">
-                     <div class="col">
-                         <div class="about-info">
-                             <figure class="about-me">
-                                 <figcaption>
-                                     <img src="" alt="" class="profile">
-                                     <h2>Web developer</h2>
-                                     <p>My name is Michael! I'm a web developer with 1 year of experience.</p>
-                                 
-                             </figure>
-                             <button class="about-me-btn">
-                                 Hire Me
-                             </button>
-                         </div>
-                     </div>
-                     <div class="skill">
-                         <div class="skill-box">
-                             <span class="title">HTML</span>
-                             <div class="skill-bar HTML">
-                                 <span class="skill-per">
-                                     <span class="tooltip">80%</span>
-                                 </span>
-                             </div>
-                         </div>
-                         <div class="skill-box">
-                             <span class="title">CSS</span>
-                             <div class="skill-bar css">
-                                 <span class="skill-per">
-                                     <span class="tooltip">80%</span>
-                                 </span>
-                             </div>
-                         </div>
-                         <div class="skill-box">
-                             <span class="title">Python</span>
-                             <div class="skill-bar">
-                                 <span class="skill-per python">
-                                     <span class="tooltip">70%</span>
-                                 </span>
-                             </div>
-                         </div>
-                         <div class="skill-box">
-                             <span class="title">JavaScript</span>
-                             <div class="skill-bar">
-                                 <span class="skill-per javascript">
-                                     <span class="tooltip">70%</span>
-                                 </span>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-              </section>
-              <!-- project box -->
-               <section class="section" id="projects">
-                 <div class="top-header">
-                     <h1>Projects</h1>
-                 </div>
-                 <div class="project-container">
-                     <div class="project-box">
-                         <i class="uil uil-briefcase-alt"></i>
-                         <h3>Completed</h3>
-                         <label for="">20+ Finished Projects</label>
-                     </div>
-                     <div class="project-box">
-                         <i class="uil uil-users-alt"></i>
-                         <h3>Clients</h3>
-                         <label for="">70+ happy clients</label>
-                     </div>
-                     <div class="project-box">
-                         <i class="uil uil-award"></i>
-                         <h3>Experience</h3>
-                         <label for="">1 year in web development</label>
-                     </div>
-                 </div>
-               </section>
-               <!-- Contact box -->
-                <section class="section" id="contact">
-                 <div class="top-header">
-                     <h1>Let's Work Together</h1>
-                     <span>Do you hav a projcet in your mind, contact me here</span>
-                 </div>
-                 <div class="row">
-                     <div class="col">
-                         <div class="contact-info">
-                             <h2>Find Me <i class="uil uil-corner-right-down"></i>
- 
-                             </h2>
-                             <p><i class="uil uil-envelope">Email:nikemichael055@gmail.com</i></p>
-                             <p><i class="uil uil-phone">
-                                 Phone:0758619210
-                             </i></p>
-                         </div>
-                     </div>
-                     <div class="col">
-                         <div class="form-control">
-                             <div class="form-inputs">
-                                 <input type="text" name="" id="" class="input-field" placeholder="Your Name">
-                                 <input type="text" name="" id="" class="input-field" placeholder="Your Email">
-                             </div>
-                             <div class="text-area">
-                                 <input type="text" name="" id="" class="input-subject" placeholder="Subject">
-                                 <textarea name="" id="" placeholder="Message"></textarea>
-                             </div>
-                             <div class="form-button">
-                                 <button class="btn">Send <i class="uil uil-message"></i></button>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                </section>
-          </main>
-          <!-- Footer -->
-           <footer>
-             <div class="middle-footer">
-                 <ul class="footer-menu">
-                     <li class="footer_menu_list">
-                         <a href="#home">Home</a>
-                     </li>
-                     <li class="footer_menu_list"><a href="#about">About</a></li>
-                     <li class="footer_menu_list"><a href="#projects">Projects</a></li>
-                     <li class="footer_menu_list"><a href="#contact">Contact</a></li>
-                 </ul>
-             </div>
-             <div class="footer-social-icons">
-                         <div class="icon"><i class="uil uil-instagram"></i></div>
-                         <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                         <div class="icon"><i class="uil uil-behance-alt"></i></div>
-                         <div class="icon" ><i class="uil uil-github-alt"></i> "></div>
-             </div>
-             <div class="bottom-footer">
-                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Michael</a> - All rights reserved </p>
-             </div>
-           </footer>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Michael's Portfolio</title>
+
+  <!-- Fonts and Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    .wrapper {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .featured-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 0;
+    }
+
+    .featured-text {
+      width: 50%;
+    }
+
+    .featured-image {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .featured-image img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 4px solid #4CAF50;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .featured-image img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(0, 255, 0, 0.8);
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+    }
+
+    .dark-mode .btn {
+      background-color: #00b894;
+    }
+
+    .dark-mode .btn:hover {
+      background-color: #019875;
+    }
+
+    .input-field,
+    .input-subject,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .dark-mode .input-field,
+    .dark-mode .input-subject,
+    .dark-mode textarea {
+      background-color: #2e2e2e;
+      color: #fff;
+      border: 1px solid #777;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: #f4f4f4;
+    }
+
+    .dark-mode nav {
+      background-color: #1e1e1e;
+    }
+
+    .nav-name {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .nav-menu ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-menu a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .dark-mode .nav-menu a {
+      color: #f1f1f1;
+    }
+
+    #toggle-switch {
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #f4f4f4;
+    }
+
+    .dark-mode footer {
+      background-color: #1e1e1e;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      display: none;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      z-index: 1000;
+    }
+    footer a:hover i {
+  transform: scale(1.2);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-logo">
+      <p class="nav-name">Michael</p>
+    </div>
+    <div class="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="toggle-switch">
+      <i class="fa fa-moon" id="moon"></i>
+    </div>
+  </nav>
+
+  <main class="wrapper">
+    <section class="featured-box" id="home" data-aos="fade-up">
+      <div class="featured-text">
+        <p>Hello I'm</p>
+        <h1>Michael</h1>
+        <p>I’m a Web Developer with 1 year of experience.</p>
+        <div>
+          <button class="btn">Hire Me</button>
+          <button class="btn">Download CV</button>
+        </div>
       </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" referrerpolicy="no-referrer"></script>
-    
-      
-    
-      </body>
+      <div class="featured-image">
+        <img src="images/1730315487986-removebg-preview.png" alt="Michael">
+      </div>
+    </section>
+
+    <section id="projects" class="wrapper" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div>
+        <h3>Responsive Business Website</h3>
+        <p>Designed and developed a responsive multipage business site using HTML, CSS, and JavaScript.</p>
+        <h3>E-commerce Product Page</h3>
+        <p>Built a product showcase page with cart functionality using Bootstrap and JS.</p>
+        <h3>Portfolio Website</h3>
+        <p>This current website demonstrates my personal brand, contact form, and animations.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2>Let's Work Together</h2>
+      <p>Do you have a project in mind? Contact me here.</p>
+      <div>
+        <input type="text" class="input-field" placeholder="Your Name" />
+        <input type="text" class="input-field" placeholder="Your Email" />
+        <input type="text" class="input-subject" placeholder="Subject" />
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button class="btn" id="sendBtn">Send <i class="uil uil-message"></i></button>
+      </div>
+    </section>
+
+    <section id="resume" class="wrapper" data-aos="fade-up">
+      <h2>Download My Resume</h2>
+      <a href="files/Michael_Resume.pdf" class="btn" download>Download PDF</a>
+    </section>
+  </main>
+
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <footer>
+    <p>&copy; Michael - All rights reserved</p>
+
+    <div style="margin-top: 20px;">
+  <a href="https://wa.me/0758619210" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://facebook.com/michael nikedee" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://github.com/nike-mike" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://instagram.com/michaeloffical" target="_blank"><i class="fab fa-instagram"></i></a>
+   <a href="tel:+254758619210" title="Call Me">
+    <i class="fas fa-phone "></i>
+  </a>
+</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    (function() {
+      emailjs.init("pOvUFzpFlqcZUFEEt");
+    })();
+
+    document.getElementById("sendBtn").addEventListener("click", function(e) {
+      e.preventDefault();
+
+      const name = document.querySelector(".input-field[placeholder='Your Name']").value;
+      const email = document.querySelector(".input-field[placeholder='Your Email']").value;
+      const subject = document.querySelector(".input-subject").value;
+      const message = document.querySelector("textarea").value;
+
+      if (!name || !email || !message) {
+        alert("Please fill all fields.");
+        return;
+      }
+
+      const params = {
+        from_name: name,
+        from_email: email,
+        subject: subject,
+        message: message
+      };
+
+      emailjs.send("service_swu0bgh", "template_bfi2voi", params)
+        .then(() => alert("Message sent successfully!"))
+        .catch(() => alert("Failed to send message."));
+    });
+
+    const toggle = document.getElementById('toggle-switch');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+
+    const backToTop = document.getElementById("backToTop");
+    window.onscroll = () => {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    };
+
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
